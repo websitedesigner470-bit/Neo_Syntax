@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>NEO_SYNTAX — AI Agency</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#0B0818;--card:#151129;--line:#2a2345;--tx:#f4f1ff;--mu:#a59fc2;--p:#9B51E0;--k:#EC4899;--o:#FB923C;--g:linear-gradient(120deg,#9B51E0,#EC4899 55%,#FB923C)}
+html{scroll-behavior:smooth;scroll-padding-top:70px}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Montserrat,Poppins,"Helvetica Neue",Arial,sans-serif;line-height:1.6;background-image:radial-gradient(circle at 15% 0,#2a1a55 0,transparent 40%),radial-gradient(circle at 90% 60%,#4a1842 0,transparent 35%);background-repeat:no-repeat}
+.w{max-width:1040px;margin:0 auto;padding:0 22px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.lg{display:flex;align-items:center;gap:10px;font-weight:300;letter-spacing:2px;font-size:18px;text-decoration:none;color:var(--tx)}
+.lg img{width:38px;height:38px;border-radius:10px}.lg b{font-weight:800;background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn{display:inline-block;padding:12px 24px;border-radius:999px;background:var(--g);color:#fff;font-weight:700;text-decoration:none;font-size:15px}
+.btn.o{background:none;border:1px solid var(--line);color:var(--tx)}
+.hero{padding:90px 0 70px;text-align:center}
+.tag{font-size:12px;letter-spacing:4px;color:var(--mu);text-transform:uppercase}
+h1{font-size:clamp(34px,7vw,64px);line-height:1.1;margin:18px 0;font-weight:800}
+h1 span,h2 span{background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:600px;margin:0 auto 30px;color:var(--mu);font-size:18px}.hero .btn{margin:6px}
+section{padding:60px 0}h2{font-size:clamp(26px,4vw,38px);margin:0 0 30px;font-weight:800}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.c{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}
+.c h3{margin:10px 0 8px}.c p{color:var(--mu);margin:0}.n{font-family:monospace;font-size:26px;background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:700}
+.cta{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:50px 22px}
+.cta p{color:var(--mu);max-width:480px;margin:0 auto 24px}
+footer{text-align:center;color:var(--mu);font-size:13px;padding:30px 0 40px;letter-spacing:2px}
+.f{max-width:620px;margin:0 auto;text-align:left;display:grid;gap:14px}.f .r{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.f label{font-size:13px;color:var(--mu);display:block;margin-bottom:6px}.f input,.f select,.f textarea{width:100%;padding:13px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--tx);font:inherit;font-size:15px}
+.f input:focus,.f select:focus,.f textarea:focus{outline:2px solid var(--p);border-color:transparent}.f button{border:0;cursor:pointer;font:inherit;font-weight:700;font-size:16px}.f .e{color:#fb7185;font-size:13px;min-height:18px;margin:0}
+.cta h2{margin-bottom:10px}
+
+.hero{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:10px;text-align:left;padding:40px 0 60px}
+.hero .ht p{margin:0 0 30px}.hero .btn{margin:6px 10px 6px 0}
+#cv{height:480px;position:relative}#cv canvas{display:block}
+h1 span{background-size:200% 100%;animation:sh 5s ease-in-out infinite alternate}@keyframes sh{to{background-position:100% 0}}
+.btn{box-shadow:0 10px 30px -10px rgba(236,72,153,.7);transition:transform .2s}.btn:hover{transform:translateY(-2px)}.btn.o{box-shadow:none}
+.c{position:relative;overflow:hidden;transition:transform .2s ease,border-color .2s;will-change:transform}
+.c>*{position:relative}.c::before{content:"";position:absolute;inset:0;background:radial-gradient(260px circle at var(--mx,50%) var(--my,0%),rgba(236,72,153,.2),transparent 60%);opacity:0;transition:opacity .2s;pointer-events:none}
+.c:hover::before{opacity:1}.c:hover{border-color:#5b3a8f}
+.js section{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}.js section.in{opacity:1;transform:none}
+@media(max-width:820px){.hero{grid-template-columns:1fr;text-align:center;padding-top:10px}.hero .ht p{margin:0 auto 30px}.hero .btn{margin:6px}#cv{height:340px;order:-1}}
+@media(prefers-reduced-motion:reduce){h1 span{animation:none}.js section{transition:none}}
+</style><link rel="icon" href="logo.png"></head><body><div class="w">
+<nav><a class="lg" href="#"><img src="logo.png" alt="NEO_SYNTAX logo">NEO<b>_SYNTAX</b></a><a class="btn" href="#contact">Start a project</a></nav>
+<header class="hero"><div class="ht"><div class="tag">Design · Code · Create</div>
+<h1>We build the <span>AI</span> that runs your business.</h1>
+<p>Custom websites, AI agents, automation scripts and logo design, built and coded to fit exactly how you work.</p>
+<a class="btn" href="#contact">Get a free consult</a><a class="btn o" href="#services">See what we build</a></div><div id="cv"></div></header>
+<section id="services"><h2>What we <span>build</span></h2><div class="grid">
+<div class="c"><div class="n">01_</div><h3>Custom Websites</h3><p>Fast, modern sites and web apps built from scratch around your brand and goals.</p></div>
+<div class="c"><div class="n">02_</div><h3>AI Agents</h3><p>Agents that answer customers, qualify leads and handle repetitive tasks around the clock.</p></div>
+<div class="c"><div class="n">03_</div><h3>Custom Scripts</h3><p>Automations and integrations that connect your tools and remove manual work.</p></div>
+<div class="c"><div class="n">04_</div><h3>Custom Logo Design</h3><p>Brand identities and logo systems with light, dark and icon versions, ready to use.</p></div></div></section>
+<section><h2>How it <span>works</span></h2><div class="grid">
+<div class="c"><div class="n">1_</div><h3>Discover</h3><p>We learn your workflow and find where AI saves the most time.</p></div>
+<div class="c"><div class="n">2_</div><h3>Build</h3><p>We design and code your solution, sharing progress along the way.</p></div>
+<div class="c"><div class="n">3_</div><h3>Launch &amp; support</h3><p>We deploy, train your team and keep improving it after launch.</p></div></div></section>
+<section id="contact"><div class="cta"><h2>Start your <span>project</span></h2><p>Tell us what you need and we'll reply with a plan and a quote.</p>
+<form class="f" id="f" novalidate>
+<div class="r"><div><label for="n">Your name *</label><input id="n" autocomplete="name"></div><div><label for="m">Email *</label><input id="m" type="email" autocomplete="email"></div></div>
+<div class="r"><div><label for="c">Company name</label><input id="c" autocomplete="organization"></div><div><label for="s">What do you need?</label><select id="s"><option>Custom website</option><option>AI agent</option><option>Custom script / automation</option><option>Logo design / branding</option><option>Something else</option></select></div></div>
+<div><label for="d">Tell us about your project *</label><textarea id="d" rows="5" placeholder="Goals, timeline, budget, anything helpful"></textarea></div>
+<p class="e" id="e"></p><button class="btn" type="submit">Send message</button></form>
+<p style="margin:18px 0 0;font-size:14px">Sending opens your email app with everything filled in. Or write to <a href="mailto:neo.syntax.ai@gmail.com" style="color:#EC4899">neo.syntax.ai@gmail.com</a></p></div></section>
+<footer>NEO_SYNTAX · DESIGN · CODE · CREATE</footer></div><script>
+document.getElementById('f').addEventListener('submit',function(ev){ev.preventDefault();
+var g=function(i){return document.getElementById(i).value.trim()},n=g('n'),m=g('m'),d=g('d'),e=document.getElementById('e');
+if(!n||!/^\S+@\S+\.\S+$/.test(m)||!d){e.textContent='Please add your name, a valid email and a short description.';return}
+e.textContent='';
+var body='Name: '+n+'\nEmail: '+m+'\nCompany: '+(g('c')||'-')+'\nService: '+g('s')+'\n\nProject details:\n'+d;
+location.href='mailto:neo.syntax.ai@gmail.com?subject='+encodeURIComponent('New inquiry: '+g('s')+' - '+n)+'&body='+encodeURIComponent(body)});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+var el=document.getElementById('cv'),RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+try{
+var r=new THREE.WebGLRenderer({antialias:true,alpha:true});r.setPixelRatio(Math.min(devicePixelRatio,2));el.appendChild(r.domElement);
+var s=new THREE.Scene(),c=new THREE.PerspectiveCamera(40,1,.1,50);c.position.z=7.5;
+var P=new THREE.Color('#9B51E0'),K=new THREE.Color('#EC4899'),O=new THREE.Color('#FB923C'),D=Math.PI/180,arc=292*D,gap=2*Math.PI-arc;
+function ring(rad,tube,op,add){var g=new THREE.TorusGeometry(rad,tube,20,180,arc),p=g.attributes.position,col=[],cc=new THREE.Color();
+for(var i=0;i<p.count;i++){var a=Math.atan2(p.getY(i),p.getX(i));if(a<0)a+=2*Math.PI;if(a>arc)a=a>arc+gap/2?0:arc;var q=a/arc;
+q<.5?cc.copy(P).lerp(K,q*2):cc.copy(K).lerp(O,(q-.5)*2);col.push(cc.r,cc.g,cc.b)}
+g.setAttribute('color',new THREE.Float32BufferAttribute(col,3));
+return new THREE.Mesh(g,new THREE.MeshBasicMaterial({vertexColors:true,transparent:op<1,opacity:op,blending:add?THREE.AdditiveBlending:THREE.NormalBlending,depthWrite:!add}))}
+var grp=new THREE.Group(),rg=new THREE.Group();rg.rotation.z=-12*D;
+rg.add(ring(2.1,.165,1),ring(2.1,.34,.16,true));
+[[0,P],[arc,O]].forEach(function(e){var m=new THREE.Mesh(new THREE.SphereGeometry(.165,20,20),new THREE.MeshBasicMaterial({color:e[1]}));m.position.set(2.1*Math.cos(e[0]),2.1*Math.sin(e[0]),0);rg.add(m)});
+grp.add(rg);
+var pts=[[75,130],[75,70],[89,70],[112,107],[112,70],[125,70],[125,130],[111,130],[88,93],[88,130]].map(function(v){return[(v[0]-100)*.03,-(v[1]-100)*.03]}),sh=new THREE.Shape();
+pts.forEach(function(v,i){i?sh.lineTo(v[0],v[1]):sh.moveTo(v[0],v[1])});
+var ng=new THREE.ExtrudeGeometry(sh,{depth:.3,bevelEnabled:true,bevelSize:.03,bevelThickness:.03,bevelSegments:3});ng.translate(0,0,-.15);
+grp.add(new THREE.Mesh(ng,new THREE.MeshStandardMaterial({color:0xffffff,roughness:.25,metalness:.2})));
+var cur=new THREE.Mesh(new THREE.BoxGeometry(.66,.2,.2),new THREE.MeshStandardMaterial({color:0xFB923C,emissive:0xFB923C,emissiveIntensity:.8}));cur.position.set(1.26,-.83,0);grp.add(cur);
+s.add(grp,new THREE.AmbientLight(0xffffff,.6));
+var l1=new THREE.PointLight(0x9B51E0,2,30);l1.position.set(-4,3,5);var l2=new THREE.PointLight(0xFB923C,2,30);l2.position.set(4,-3,5);var l3=new THREE.DirectionalLight(0xffffff,.8);l3.position.set(0,2,6);s.add(l1,l2,l3);
+var pa=[];for(var i=0;i<350;i++){var u=Math.random()*6.28,v=Math.acos(2*Math.random()-1),d=3.5+Math.random()*3;pa.push(d*Math.sin(v)*Math.cos(u),d*Math.sin(v)*Math.sin(u),d*Math.cos(v)-2)}
+var pg=new THREE.BufferGeometry();pg.setAttribute('position',new THREE.Float32BufferAttribute(pa,3));
+var pp=new THREE.Points(pg,new THREE.PointsMaterial({size:.05,color:0xEC4899,transparent:true,opacity:.7}));s.add(pp);
+var mx=0,my=0,tx=0,ty=0;addEventListener('pointermove',function(e){mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+function rs(){var W=el.clientWidth,H=el.clientHeight;r.setSize(W,H);c.aspect=W/H;c.updateProjectionMatrix()}rs();new ResizeObserver(rs).observe(el);
+function f(t){tx+=(mx-tx)*.06;ty+=(my-ty)*.06;grp.rotation.y=tx*1.1+Math.sin(t*.0004)*.25;grp.rotation.x=ty*.6;grp.position.y=Math.sin(t*.001)*.12;pp.rotation.y=t*.00005;r.render(s,c);if(!RM)requestAnimationFrame(f)}
+f(0);
+}catch(e){el.style.display='none'}
+document.querySelectorAll('.c').forEach(function(k){k.addEventListener('pointermove',function(e){var b=k.getBoundingClientRect(),x=(e.clientX-b.left)/b.width,y=(e.clientY-b.top)/b.height;k.style.setProperty('--mx',x*100+'%');k.style.setProperty('--my',y*100+'%');if(!RM&&e.pointerType==='mouse')k.style.transform='perspective(800px) rotateX('+((.5-y)*10)+'deg) rotateY('+((x-.5)*12)+'deg)'});k.addEventListener('pointerleave',function(){k.style.transform=''})});
+if('IntersectionObserver' in window){document.documentElement.classList.add('js');var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});document.querySelectorAll('section').forEach(function(x){io.observe(x)})}
+})();
+</script></body></html>
